@@ -215,6 +215,28 @@ function PullResult({ results, onClose, gachaQuotes }) {
             {results.length} character{results.length > 1 ? 's' : ''} obtained
           </p>
           
+          {/* Streak Information */}
+          {results.length > 0 && results[0].consecutiveRStreak !== undefined && (
+            <div className="flex justify-center gap-4 mb-4 text-sm">
+              <div className="flex items-center gap-1">
+                <span className="opacity-70">R Streak:</span>
+                <span className="font-bold text-red-600">{results[0].consecutiveRStreak}</span>
+              </div>
+              {results[0].streakMultiplier && (
+                <div className="flex items-center gap-1">
+                  <span className="opacity-70">Multiplier:</span>
+                  <span className="font-bold text-green-600">×{results[0].streakMultiplier.toFixed(2)}</span>
+                </div>
+              )}
+              {results[0].appliedSSRRate && (
+                <div className="flex items-center gap-1">
+                  <span className="opacity-70">Applied SSR Rate:</span>
+                  <span className="font-bold text-blue-600">{(results[0].appliedSSRRate * 100).toFixed(3)}%</span>
+                </div>
+              )}
+            </div>
+          )}
+          
           {/* Quote Section */}
           <div 
             className="p-4 rounded-lg mx-auto max-w-md mb-4"
@@ -361,20 +383,24 @@ export default function GachaPage() {
             style={{ backgroundColor: 'rgba(87, 86, 79, 0.1)' }}
           >
             <div className="text-center">
-              <div className="text-2xl font-bold">{stats.totalOwned}</div>
+              <div className="text-lg font-bold">{stats.totalOwned}</div>
               <div className="text-sm opacity-80">Collected</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">{stats.totalPulls}</div>
+              <div className="text-lg font-bold">{stats.totalPulls}</div>
               <div className="text-sm opacity-80">Total Pulls</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">{stats.streak}</div>
+              <div className="text-lg font-bold">{stats.consecutiveRStreak}</div>
               <div className="text-sm opacity-80">R Streak</div>
             </div>
             <div className="text-center">
               <div className="text-lg font-bold text-red-600">{stats.currentSSRRate}%</div>
               <div className="text-sm opacity-80">SSR Rate</div>
+            </div>
+            <div className="text-center">
+              <div className="text-lg font-bold text-green-600">×{stats.streakMultiplier ? stats.streakMultiplier.toFixed(2) : '1.00'}</div>
+              <div className="text-sm opacity-80">Multiplier</div>
             </div>
             <div className="text-center">
               <div className="text-lg font-bold text-orange-600">{stats.nearMiss}</div>

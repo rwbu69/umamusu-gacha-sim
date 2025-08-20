@@ -82,12 +82,44 @@ export default function Home() {
                     <span className="text-lg font-semibold">{stats.totalPulls}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm">SSR Rate</span>
+                    <span className="text-sm">Current SSR Rate</span>
                     <span className="text-lg font-semibold text-blue-600">{stats.currentSSRRate}%</span>
                   </div>
-                  {stats.isLuckyStreak && (
-                    <div className="bg-yellow-100 border border-yellow-300 rounded-lg p-2 text-center">
-                      <span className="text-sm font-bold text-yellow-800">Lucky Streak x{stats.luckyStreak}!</span>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Base Rate</span>
+                    <span className="text-sm opacity-70">{stats.baseSSRRate}%</span>
+                  </div>
+                  
+                  {/* Enhanced Streak Display */}
+                  {stats.consecutiveRStreak > 0 && (
+                    <div className="bg-red-50 border border-red-200 rounded-lg p-3">
+                      <div className="flex justify-between items-center mb-1">
+                        <span className="text-sm font-medium text-red-700">Suffering Streak</span>
+                        <span className="text-lg font-bold text-red-600">{stats.consecutiveRStreak}R</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-xs text-red-600">Rate Multiplier</span>
+                        <span className="text-sm font-semibold text-red-600">×{stats.streakMultiplier.toFixed(2)}</span>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {stats.consecutiveSRStreak > 0 && (
+                    <div className="bg-purple-50 border border-purple-200 rounded-lg p-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-purple-700">SR Streak</span>
+                        <span className="text-lg font-bold text-purple-600">{stats.consecutiveSRStreak}</span>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {stats.nearMiss > 0 && (
+                    <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm font-medium text-yellow-700">Near Misses</span>
+                        <span className="text-lg font-bold text-yellow-600">{stats.nearMiss}</span>
+                      </div>
+                      <p className="text-xs text-yellow-600 mt-1">You were so close to SSR!</p>
                     </div>
                   )}
                 </div>
