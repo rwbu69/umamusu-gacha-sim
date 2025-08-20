@@ -163,6 +163,44 @@ npm run build
 npm start
 ```
 
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+This project is optimized for Vercel deployment:
+
+#### Option 1: Vercel CLI
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login and deploy
+vercel login
+vercel --prod
+```
+
+#### Option 2: GitHub Integration
+1. Push your code to GitHub
+2. Connect repository to [Vercel](https://vercel.com)
+3. Automatic deployments on every push to main
+
+#### Option 3: Manual Upload
+- Drag and drop the project folder to Vercel dashboard
+
+### Configuration Files
+- ✅ `vercel.json` - Deployment configuration
+- ✅ `next.config.mjs` - Production optimizations
+- ✅ `.github/workflows/deploy.yml` - CI/CD pipeline
+- ✅ Health check endpoint: `/api/health`
+
+### Build Status
+- **Build Size**: ~115KB first load
+- **Static Pages**: 8 pages pre-rendered
+- **API Routes**: Health check endpoint
+- **Performance**: Optimized for lighthouse scores
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
+
 ## 🎯 Game Strategy Tips
 
 ### Maximizing SSR Chances

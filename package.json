@@ -1,12 +1,22 @@
 {
   "name": "umamusu-gacha-sim",
   "version": "0.1.0",
+  "description": "A brutal but addictive gacha simulator inspired by Uma Musume Pretty Derby",
   "private": true,
+  "keywords": ["gacha", "simulator", "uma-musume", "nextjs", "react", "rng"],
+  "author": "rwbu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "19.1.0",
