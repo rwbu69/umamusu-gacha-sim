@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "Gold Ship",
+    "rarity": "SR",
+    "image": "images/gold_ship.png"
+  },
+  {
+    "id": 2,
+    "name": "Special Week",
+    "rarity": "SSR",
+    "image": "images/special_week.png"
+  },
+  {
+    "id": 3,
+    "name": "Silence Suzuka",
+    "rarity": "SSR",
+    "image": "images/silence_suzuka.png"
+  },
+  {
+    "id": 4,
+    "name": "Tokai Teio",
+    "rarity": "SSR",
+    "image": "images/tokai_teio.png"
+  },
+  {
+    "id": 5,
+    "name": "Mejiro McQueen",
+    "rarity": "SSR",
+    "image": "images/mejiro_mcqueen.png"
+  },
+  {
+    "id": 6,
+    "name": "Nice Nature",
+    "rarity": "R",
+    "image": "images/nice_nature.png"
+  },
+  {
+    "id": 7,
+    "name": "Haru Urara",
+    "rarity": "R",
+    "image": "images/haru_urara.png"
+  },
+  {
+    "id": 8,
+    "name": "King Halo",
+    "rarity": "R",
+    "image": "images/king_halo.png"
+  },
+  {
+    "id": 9,
+    "name": "Vodka",
+    "rarity": "SR",
+    "image": "images/vodka.png"
+  },
+  {
+    "id": 10,
+    "name": "Daiwa Scarlet",
+    "rarity": "SR",
+    "image": "images/daiwa_scarlet.png"
+  },
+  {
+    "id": 11,
+    "name": "Oguri Cap",
+    "rarity": "SSR",
+    "image": "images/oguri_cap.png"
+  },
+  {
+    "id": 12,
+    "name": "Taiki Shuttle",
+    "rarity": "SSR",
+    "image": "images/taiki_shuttle.png"
+  },
+  {
+    "id": 13,
+    "name": "Agnes Tachyon",
+    "rarity": "R",
+    "image": "images/agnes_tachyon.png"
+  },
+  {
+    "id": 14,
+    "name": "Mejiro Ryan",
+    "rarity": "R",
+    "image": "images/mejiro_ryan.png"
+  },
+  {
+    "id": 15,
+    "name": "Matikane Fukukitaru",
+    "rarity": "R",
+    "image": "images/matikanefukukitaru.png"
+  },
+  {
+    "id": 16,
+    "name": "Biwa Hayahide",
+    "rarity": "SSR",
+    "image": "images/biwa_hayahide.png"
+  },
+  {
+    "id": 17,
+    "name": "Mihono Bourbon",
+    "rarity": "SSR",
+    "image": "images/mihono_bourbon.png"
+  },
+  {
+    "id": 18,
+    "name": "Rice Shower",
+    "rarity": "SSR",
+    "image": "images/rice_shower.png"
+  },
+  {
+    "id": 19,
+    "name": "Symboli Rudolf",
+    "rarity": "SSR",
+    "image": "images/symboli_rudolf.png"
+  },
+  {
+    "id": 20,
+    "name": "El Condor Pasa",
+    "rarity": "SR",
+    "image": "images/el_condor_pasa.png"
+  },
+  {
+    "id": 21,
+    "name": "Maruzensky",
+    "rarity": "SSR",
+    "image": "images/maruzensky.png"
+  },
+  {
+    "id": 22,
+    "name": "Sakura Bakushin O",
+    "rarity": "R",
+    "image": "images/sakura_bakushin_o.png"
+  },
+  {
+    "id": 23,
+    "name": "Super Creek",
+    "rarity": "SR",
+    "image": "images/super_creek.png"
+  },
+  {
+    "id": 24,
+    "name": "Mayano Top Gun",
+    "rarity": "SR",
+    "image": "images/mayano_top_gun.png"
+  },
+  {
+    "id": 25,
+    "name": "Grass Wonder",
+    "rarity": "SR",
+    "image": "images/grass_wonder.png"
+  },
+  {
+    "id": 26,
+    "name": "Curren Chan",
+    "rarity": "SSR",
+    "image": "images/curren_chan.png"
+  },
+  {
+    "id": 27,
+    "name": "TM Opera O",
+    "rarity": "SSR",
+    "image": "images/tm_opera_o.png"
+  },
+  {
+    "id": 28,
+    "name": "Air Groove",
+    "rarity": "SR",
+    "image": "images/air_groove.png"
+  },
+  {
+    "id": 29,
+    "name": "Winning Ticket",
+    "rarity": "R",
+    "image": "images/winning_ticket.png"
+  }
+]

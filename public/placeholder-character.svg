@@ -1,0 +1,7 @@
+<!-- This is a simple SVG placeholder for missing character images -->
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="96" height="96" fill="#E5E7EB"/>
+  <circle cx="48" cy="35" r="12" fill="#9CA3AF"/>
+  <path d="M20 80 C20 65, 32 55, 48 55 S76 65, 76 80" fill="#9CA3AF"/>
+  <text x="48" y="90" text-anchor="middle" fill="#6B7280" font-size="8" font-family="Arial">Uma Musume</text>
+</svg>
