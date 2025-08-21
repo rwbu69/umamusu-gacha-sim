@@ -1,9 +1,15 @@
 # 🐎 Uma Musume Gacha Simulator
 
-![Project Banner](./assets/thumbnail.png)
+<div align="center">
+  <img src="./assets/thumbnail.png" alt="Uma Musume Gacha Simulator" width="100%" />
+</div>
 
-![Gold Ship](./assets/gifs/goldship.gif)
-![Gold Ship 2](./assets/gifs/golship2.gif)
+<div align="center">
+  <img src="./assets/gifs/goldship.gif" alt="Gold Ship Animation 1" width="45%" />
+  <img src="./assets/gifs/golship2.gif" alt="Gold Ship Animation 2" width="45%" />
+</div>
+
+<br/>
 
 ## Description
 
