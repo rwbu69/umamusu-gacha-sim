@@ -1,7 +1,7 @@
 # 🐎 Uma Musume Gacha Simulator
 
 ![Gold Ship](./assets/gifs/goldship.gif)
-![Gold Ship 2](./assets/gifs/goldship2.gif)
+![Gold Ship 2](./assets/gifs/golship2.gif)
 
 ## Description
 
