@@ -1,8 +1,31 @@
-<div align="center">
+<picture>
+  <source
+    width="100%"
+    srcset="./assets/thumbnail.png"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    width="100%"
+    srcset="./assets/thumbnail.png"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img width="100%" src="./assets/thumbnail.png" />
+</picture>
 
-![Uma Musume Gacha Simulator](./assets/thumbnail.png)
+<h1 align="center">🐎 Uma Musume Gacha Simulator</h1>
 
-</div>
+<p align="center">An advanced gacha simulation system featuring sophisticated probability engines with psychological mechanics and enhanced user experience.</p>
+
+<p align="center">
+  [<a href="https://umamusu-gacha-sim.vercel.app">Live Demo</a>] [<a href="#setup-instructions">Setup Guide</a>] [<a href="#ai-support-explanation">IBM Granite AI</a>]
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js&labelColor=000000">
+  <img src="https://img.shields.io/badge/React-19-blue?style=flat&logo=react&labelColor=61DAFB">
+  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat&logo=tailwind-css&labelColor=06B6D4">
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=flat&logo=vercel&labelColor=000000">
+</p>
 
 <div align="center">
   <img src="./assets/gifs/goldship.gif" alt="Gold Ship Animation 1" width="45%" />
@@ -11,105 +34,91 @@
 
 ---
 
-# 🐎 Uma Musume Gacha Simulator
+> Inspired by Uma Musume Pretty Derby with brutal yet engaging gacha mechanics
 
-## Description
+> [!NOTE]
+> This project showcases advanced probability algorithms and psychological engagement systems developed with **IBM Granite AI** for educational and demonstration purposes.
 
-An advanced gacha simulation system inspired by Uma Musume Pretty Derby, featuring a sophisticated probability engine with psychological mechanics and enhanced user experience. This simulator goes beyond traditional flat-rate gacha systems by implementing complex streak-based multipliers, near-miss detection, and guaranteed mechanics that create an engaging and realistic gacha experience.
+Built with cutting-edge web technologies, this simulator features a **brutal yet fair gacha system** with no traditional pity mechanics, instead relying on intelligent probability scaling and psychological feedback systems to maintain player engagement while preserving the authentic thrill of gacha gaming.
 
-Built with cutting-edge web technologies, this simulator features a brutal yet fair gacha system with no traditional pity mechanics, instead relying on intelligent probability scaling and psychological feedback systems to maintain player engagement while preserving the authentic thrill of gacha gaming.
+## ✨ What's Special About This Project?
 
-## Technologies Used
+Unlike traditional flat-rate gacha simulators, our system implements **sophisticated psychological mechanics** commonly found in commercial gacha games. The system uses advanced probability algorithms, streak-based multipliers, and near-miss detection to create an engaging and realistic gacha experience.
 
-- **Next.js 15** - React framework with App Router and Turbopack for lightning-fast development
-- **React 19** - Latest React with enhanced concurrent features
-- **Tailwind CSS** - Utility-first CSS framework for responsive design
-- **JavaScript ES6+** - Modern JavaScript with advanced probability algorithms
-- **Vercel** - Deployment platform optimized for Next.js applications
-- **JSON** - Data management for character collections and dynamic content
+> [!TIP]
+> **Enhanced Algorithm Features:**
+> 
+> The simulator goes beyond simple probability rolls by implementing cumulative probability distribution, dual streak tracking, pattern analysis, and psychological manipulation techniques that mirror real-world gacha systems.
 
-## Features
+This means the **Uma Musume Gacha Simulator** provides an authentic gacha experience with mathematical precision, featuring brutal base rates (0.7% SSR) while maintaining psychological engagement through intelligent rate scaling and visual feedback systems.
 
-### 🎰 Advanced Gacha System
-- **Brutal Base Rates**: 0.7% SSR, 8% SR, 91.3% R - no mercy for the weak
-- **Dynamic Streak Multipliers**: 1.05x to 1.45x SSR rate bonuses based on consecutive R pulls
-- **Cumulative Probability Distribution**: Sophisticated mathematical model for realistic pulls
-- **Guaranteed SR System**: Every 10-pull guarantees at least one SR or higher
-- **Near-Miss Psychology**: Advanced detection system that identifies "almost SSR" pulls for psychological engagement
+## 🎯 Current Features
 
-### 🧠 Psychological Engagement Features
-- **Dual Streak Tracking**: Separate counters for consecutive R and SR streaks
-- **Pattern Analysis**: Rolling 10-pull history tracking for enhanced user feedback
-- **Real-time Rate Display**: Dynamic SSR rates that update based on current streak status
-- **Near-Miss Counter**: Tracks and displays those heart-breaking "so close" moments
+<div align="center">
+  <img src="./assets/gifs/gacha-pull-demo.gif" alt="Gacha System Demo" width="80%" />
+</div>
 
-### 🎨 Premium User Experience
-- **Responsive Design**: Seamlessly adapts from mobile to desktop
-- **Smooth Animations**: Card reveal animations with rarity-specific effects
-- **Dynamic Quotes System**: Contextual quotes that respond to pull results
-- **Japanese Dad Jokes Corner**: Featuring Symboli Rudolf with authentic dajare humor
-- **Collection Tracking**: Comprehensive statistics and progress monitoring
+**Capable of:**
 
-### 📊 Enhanced Statistics
-- **Collection Progress**: Track owned characters vs total available
-- **Pull History**: Detailed logging of all gacha activities
-- **Rate Monitoring**: Real-time SSR rate adjustments and multiplier tracking
-- **Streak Analytics**: Comprehensive streak data with psychological insights
-- **Near-Miss Tracking**: Monitor those "almost got it" moments
+- [x] **🎰 Advanced Gacha System**
+  - [x] Brutal Base Rates: 0.7% SSR, 8% SR, 91.3% R
+  - [x] Dynamic Streak Multipliers: 1.05x to 1.45x SSR rate bonuses
+  - [x] Cumulative Probability Distribution
+  - [x] **Guaranteed SR System**: Every 10-pull guarantees at least one SR
+  - [x] Near-Miss Psychology Detection
+- [x] **🧠 Psychological Engagement**
+  - [x] Dual Streak Tracking (R and SR streaks)
+  - [x] Pattern Analysis of last 10 pulls
+  - [x] Real-time Rate Display
+  - [x] Near-Miss Counter and feedback
+- [x] **🎨 Premium User Experience**
+  - [x] Responsive Design (Mobile & Desktop)
+  - [x] Smooth Card Reveal Animations
+  - [x] Dynamic Quotes System
+  - [x] **Japanese Dad Jokes Corner** (だじゃれコーナー with Symboli Rudolf)
+  - [x] Collection Progress Tracking
+- [x] **📊 Enhanced Statistics**
+  - [x] Collection Progress Monitoring
+  - [x] Pull History & Analytics
+  - [x] Rate Monitoring & Multiplier Tracking
+  - [x] Streak Analytics with Psychological Insights
+- [x] **🔧 Quality of Life**
+  - [x] Data Persistence (LocalStorage)
+  - [x] Export/Import System
+  - [x] Single & Multi-Pull Options
+  - [x] Mobile-Optimized Interface
 
-### 🎯 Quality of Life Features
-- **Data Persistence**: LocalStorage integration for seamless session continuity
-- **Export/Import System**: Full data portability for backup and sharing
-- **Single & Multi-Pull Options**: Flexible pulling mechanics
-- **Guaranteed Pull Indicators**: Clear countdown to next guaranteed SR
-- **Mobile-Optimized Interface**: Touch-friendly controls and responsive layout
+## 🚀 Setup Instructions
 
-## Setup Instructions
+> For detailed setup instructions and deployment guides, follow the steps below
 
-### Prerequisites
-- Node.js 18+ installed on your system
-- npm or yarn package manager
+> [!NOTE]
+> **Prerequisites:** Node.js 18+ and npm/yarn package manager required
 
-### Installation
+```shell
+# Clone the repository
+git clone https://github.com/rwbu69/umamusu-gacha-sim.git
+cd umamusu-gacha-sim
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/rwbu69/umamusu-gacha-sim.git
-   cd umamusu-gacha-sim
-   ```
+# Install dependencies
+npm install
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+# Start development server
+npm run dev
+```
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+### 🌐 Production Deployment (Vercel Recommended)
 
-4. **Open in browser**
-   Navigate to `http://localhost:3000` to experience the gacha simulator
-
-### Production Deployment
-
-**Deploy to Vercel (Recommended)**
-```bash
+```shell
+# Build for production
 npm run build
+
+# Deploy to Vercel
 npx vercel --prod
 ```
 
-**Alternative Deployment**
-```bash
-npm run build
-npm start
-```
+### 📁 Project Structure
 
-### Project Structure
 ```
 ├── app/
 │   ├── gacha/           # Main gacha interface
@@ -119,10 +128,20 @@ npm start
 │   ├── characters.json  # Character database
 │   ├── gacha_quotes.json # Dynamic quote system
 │   └── dad_jokes.json   # Japanese humor collection
-└── public/              # Static assets and character images
+└── assets/              # Visual assets and GIFs
+    └── gifs/           # Demonstration GIFs
 ```
 
-## AI Support Explanation
+## 🛠️ Technologies Used
+
+- [x] **[Next.js 15](https://nextjs.org/)** - React framework with App Router and Turbopack
+- [x] **[React 19](https://react.dev/)** - Latest React with enhanced concurrent features  
+- [x] **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- [x] **JavaScript ES6+** - Modern JavaScript with advanced probability algorithms
+- [x] **[Vercel](https://vercel.com/)** - Deployment platform optimized for Next.js
+- [x] **JSON** - Data management for characters and dynamic content
+
+## 🤖 AI Support Explanation
 
 This project was developed with the exceptional assistance of **IBM Granite AI**, which proved instrumental in creating the sophisticated gacha mechanics and RNG systems that power this simulator. IBM Granite's advanced language understanding and code generation capabilities enabled the development of complex probability algorithms, psychological engagement systems, and mathematical models that would have taken significantly longer to implement manually.
 
@@ -134,22 +153,45 @@ This project was developed with the exceptional assistance of **IBM Granite AI**
 - **🎯 Feature Integration**: Seamless integration of multiple complex systems (near-miss detection, guaranteed pulls, streak tracking) was achieved through Granite's architectural insights
 - **🔄 Code Optimization**: IBM Granite provided valuable suggestions for performance optimization and code structure improvements throughout the development process
 
-The sophisticated nature of this gacha simulator - from its psychological manipulation techniques to its advanced statistical tracking - demonstrates IBM Granite AI's remarkable capability to understand complex gaming mechanics and translate them into robust, production-ready code. The AI's ability to maintain context across multiple interconnected systems while ensuring mathematical accuracy and user experience optimization showcases the true power of IBM's Granite technology in real-world application development.
-
 **IBM Granite's Impact on Development Efficiency:**
 
 - **🚀 Rapid Prototyping**: Complex algorithms that would typically require days of research and implementation were developed in hours with Granite's assistance
 - **🎯 Mathematical Precision**: Granite ensured all probability calculations were mathematically sound and properly normalized
 - **🧠 Psychological Insights**: The AI helped implement advanced psychological engagement techniques based on established gacha game principles
 - **🔧 Code Quality**: Granite's suggestions led to cleaner, more maintainable code architecture with proper separation of concerns
-- **📊 Testing Strategy**: Comprehensive testing approaches were developed with Granite's guidance to ensure system reliability
 
-This project serves as a testament to how IBM Granite AI can elevate development workflows, enabling the creation of feature-rich, mathematically complex applications that would traditionally require extensive specialized knowledge in probability theory and behavioral psychology. The seamless collaboration between human creativity and IBM Granite's computational intelligence resulted in a gacha simulator that rivals commercial implementations in both sophistication and user engagement.
+The sophisticated nature of this gacha simulator - from its psychological manipulation techniques to its advanced statistical tracking - demonstrates **IBM Granite AI's remarkable capability** to understand complex gaming mechanics and translate them into robust, production-ready code. The AI's ability to maintain context across multiple interconnected systems while ensuring mathematical accuracy and user experience optimization showcases the true power of IBM's Granite technology in real-world application development.
 
-**Future Enhancements Planned with IBM Granite:**
-- Machine learning-based player behavior analysis
-- Dynamic difficulty adjustment algorithms
-- Advanced anti-cheat pattern detection
-- Real-time engagement optimization systems
+> [!IMPORTANT]
+> **Future Enhancements Planned with IBM Granite:**
+> - Machine learning-based player behavior analysis
+> - Dynamic difficulty adjustment algorithms  
+> - Advanced anti-cheat pattern detection
+> - Real-time engagement optimization systems
 
-IBM Granite AI has truly revolutionized the development process for this project, demonstrating the immense potential of AI-assisted software development for complex, mathematically-intensive applications.
+This project serves as a testament to how **IBM Granite AI can elevate development workflows**, enabling the creation of feature-rich, mathematically complex applications that would traditionally require extensive specialized knowledge in probability theory and behavioral psychology.
+
+## 🌟 Sub-projects and Inspirations
+
+- **[Uma Musume Pretty Derby](https://umamusume.jp/)**: The original inspiration for character designs and gacha mechanics
+- **IBM Granite AI Integration**: Advanced AI-assisted development showcasing modern AI capabilities
+- **Mathematical Gacha Research**: Implementation of real-world psychological manipulation techniques
+- **Next.js 15 Showcase**: Demonstration of latest React and Next.js features
+
+## 📊 Project Status
+
+![GitHub Stars](https://img.shields.io/github/stars/rwbu69/umamusu-gacha-sim?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/rwbu69/umamusu-gacha-sim?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/rwbu69/umamusu-gacha-sim)
+
+## 🙏 Acknowledgements
+
+- **[IBM Granite AI](https://www.ibm.com/granite)**: For exceptional AI assistance in developing complex probability algorithms and psychological engagement systems
+- **[Uma Musume Pretty Derby](https://umamusume.jp/)**: Original inspiration for character designs and gacha mechanics
+- **[Next.js Team](https://nextjs.org/)**: For the amazing React framework and development experience
+- **[Vercel](https://vercel.com/)**: For seamless deployment and hosting solutions
+- **Open Source Community**: For the incredible tools and libraries that made this project possible
+
+---
+
+**Built with ❤️ and IBM Granite AI assistance**
