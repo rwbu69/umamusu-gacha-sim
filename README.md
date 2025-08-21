@@ -1,5 +1,7 @@
 # 🐎 Uma Musume Gacha Simulator
 
+![Project Banner](./assets/thumbnail.png)
+
 ![Gold Ship](./assets/gifs/goldship.gif)
 ![Gold Ship 2](./assets/gifs/golship2.gif)
 
