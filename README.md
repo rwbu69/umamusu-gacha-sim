@@ -1,5 +1,8 @@
 # 🐎 Uma Musume Gacha Simulator
 
+![Gold Ship](./assets/gifs/goldship.gif)
+![Gold Ship 2](./assets/gifs/goldship2.gif)
+
 ## Description
 
 An advanced gacha simulation system inspired by Uma Musume Pretty Derby, featuring a sophisticated probability engine with psychological mechanics and enhanced user experience. This simulator goes beyond traditional flat-rate gacha systems by implementing complex streak-based multipliers, near-miss detection, and guaranteed mechanics that create an engaging and realistic gacha experience.
